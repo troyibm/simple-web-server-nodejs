@@ -1,0 +1,10 @@
+applications:
+    -
+        path: .
+        buildpack: sdk-for-nodejs
+        no-route: false
+        memory: 256M
+        instances: 1
+        domain: mybluemix.net
+        name: troy-test
+        host: troy-test
